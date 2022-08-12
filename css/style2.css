@@ -1,0 +1,87 @@
+@import url('http://fonts.cdnfonts.com/css/pinyon-script');
+section{
+    width: 850px;
+}
+ h1{
+    position: absolute;
+    top: 310px;
+    margin-left: 170px;
+    font-family: 'Pinyon Script';
+    font-size: 30px;
+ }
+
+ .heading-bg{
+    margin-left: 120px;
+} 
+  
+.logo >img{
+    background-color:red;
+    border-radius: 30px;
+    margin-left:40%;
+    margin-top: -130px;
+}
+#price-list{
+    background-color: red;
+    margin-top: -10px;
+}
+.food{
+    margin-left: 85%;
+}
+table{
+    width: 800px;
+    padding: 10px;
+    line-height: 50px;
+    color: white;
+    margin-left:50px;
+    font-style: italic;
+}
+.second-bg{
+    margin-left: 100px;
+}
+h2{
+    margin-left: 40%;
+    color: white;
+}
+.order{
+    background-image: url(../images/food-plate2.jpg);
+    background-size: cover;
+    background-color: rgb(34, 33, 33);
+    background-blend-mode: soft-light;
+    margin-top: -50px;
+}
+.food-menu{
+    position: absolute;
+    top: 970px;
+    margin-left: 160px;
+    font-family: 'Pinyon Script';
+    color: black;
+}
+
+.btn{
+    width: 91%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin: 5px;
+    
+}
+.sel{
+    width: 92%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;   
+}
+textarea{
+    background-color: transparent;
+}
+input[type=text]{
+    width: 90%;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;    
+}
+.form{
+    margin-left: 20px; ;
+}
