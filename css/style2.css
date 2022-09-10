@@ -1,10 +1,16 @@
 @import url('http://fonts.cdnfonts.com/css/pinyon-script');
+body{
+    background-color: black;
+    
+}
 section{
     width: 850px;
+    margin-right: auto;
+    margin-left: auto;
 }
  h1{
     position: absolute;
-    top: 310px;
+    top: 340px;
     margin-left: 170px;
     font-family: 'Pinyon Script';
     font-size: 30px;
@@ -12,13 +18,16 @@ section{
 
  .heading-bg{
     margin-left: 120px;
-} 
+}
   
 .logo >img{
     background-color:red;
-    border-radius: 30px;
-    margin-left:40%;
-    margin-top: -130px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: -70px;
+    margin-left:45%;
+    
 }
 #price-list{
     background-color: red;
@@ -32,7 +41,7 @@ table{
     padding: 10px;
     line-height: 50px;
     color: white;
-    margin-left:50px;
+    margin-left:10px;
     font-style: italic;
 }
 .second-bg{
@@ -51,37 +60,35 @@ h2{
 }
 .food-menu{
     position: absolute;
-    top: 970px;
+    top: 1000px;
     margin-left: 160px;
     font-family: 'Pinyon Script';
     color: black;
 }
+.form-control{
+    width: 95%;
+    height: 40px;
+    padding: 5px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.form-group{
+    margin-bottom: 20px;
 
+}
+.sel{
+    height: 300px
+}
+ 
 .btn{
     width: 91%;
     padding: 5px;
     border-radius: 10px;
     background-color: yellow;
-    margin: 5px;
+    margin-left: 50px;
     
-}
-.sel{
-    width: 92%;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: transparent;
-    color: white;   
-}
-textarea{
-    background-color: transparent;
-}
-input[type=text]{
-    width: 90%;
-    padding: 5px;
-    background-color: transparent;
-    border-radius: 5px;
-    color: white;    
-}
-.form{
-    margin-left: 20px; ;
 }
