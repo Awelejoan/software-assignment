@@ -52,7 +52,7 @@ h2{
     color: white;
 }
 .order{
-    background-image: url(../images/food-plate2.jpg);
+    background-image: url(images/food-plate2.jpg);
     background-size: cover;
     background-color: rgb(34, 33, 33);
     background-blend-mode: soft-light;
