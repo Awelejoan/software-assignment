@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'abelregular';
+    src: url('../font/abel-regular-webfont.woff2') format('woff2'),
+         url('../font/abel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('../font/pinyonscript-regular-webfont.woff2') format('woff2'),
+         url('../font/pinyonscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'abel-regular';
+}
+h1, h3, h4, h5, h6 {
+    font-family: 'pinyon_scriptregular';
+}
+h2{
+    font-family: 'abelregular';
+}
